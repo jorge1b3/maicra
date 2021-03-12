@@ -1,0 +1,52 @@
+{
+  "vanillatweaks:tpa": {
+    "criteria": {
+      "tick": "2021-03-11 03:00:05 +0000"
+    },
+    "done": true
+  },
+  "vanillatweaks:kill_empty_boats": {
+    "criteria": {
+      "tick": "2021-03-11 03:00:05 +0000"
+    },
+    "done": true
+  },
+  "vanillatweaks:root": {
+    "criteria": {
+      "tick": "2021-03-11 03:00:05 +0000"
+    },
+    "done": true
+  },
+  "vanillatweaks:silence_mobs": {
+    "criteria": {
+      "tick": "2021-03-11 03:00:05 +0000"
+    },
+    "done": true
+  },
+  "vanillatweaks:graves": {
+    "criteria": {
+      "tick": "2021-03-11 03:00:05 +0000"
+    },
+    "done": true
+  },
+  "vanillatweaks:multiplayer_sleep": {
+    "criteria": {
+      "tick": "2021-03-11 03:00:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:mountains": "2021-03-11 03:18:43 +0000",
+      "minecraft:taiga": "2021-03-11 03:00:06 +0000"
+    },
+    "done": false
+  },
+  "vanillatweaks:double_shulker_shells": {
+    "criteria": {
+      "tick": "2021-03-11 03:00:05 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 2586
+}
