@@ -1,2 +1,2 @@
 #!/bin/bash
-java -Xmx8128M -Xms8128M -jar fabric-server-launch.jar nogui
+java -Xmx7010M -Xms7010M -jar fabric-server-launch.jar nogui

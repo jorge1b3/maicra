@@ -155,6 +155,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2021-03-12 15:52:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diorite_slab_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2021-03-09 02:21:47 +0000"
@@ -336,6 +342,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2021-03-12 15:52:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/emerald_block": {
     "criteria": {
       "has_emerald": "2021-03-10 02:27:02 +0000"
@@ -389,6 +401,7 @@
       "cooked_porkchop": "2021-03-10 02:53:36 +0000",
       "cooked_mutton": "2021-03-09 03:06:19 +0000",
       "cooked_beef": "2021-03-10 22:58:29 +0000",
+      "baked_potato": "2021-03-12 15:50:54 +0000",
       "bread": "2021-03-10 02:30:30 +0000",
       "cooked_chicken": "2021-03-11 04:01:58 +0000"
     },
@@ -505,6 +518,12 @@
   "minecraft:recipes/misc/leather_horse_armor": {
     "criteria": {
       "has_leather": "2021-03-10 23:50:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2021-03-12 15:52:03 +0000"
     },
     "done": true
   },
@@ -676,6 +695,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2021-03-12 15:52:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/cauldron": {
     "criteria": {
       "has_water_bucket": "2021-03-09 03:08:18 +0000"
@@ -775,6 +800,12 @@
   "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
       "in_water": "2021-03-09 02:29:33 +0000"
+    },
+    "done": true
+  },
+  "computercraft:recipes/generated/turtle_normal/minecraft_crafting_table": {
+    "criteria": {
+      "has_items": "2021-03-12 17:07:33 +0000"
     },
     "done": true
   },
@@ -962,6 +993,12 @@
   "minecraft:recipes/decorations/green_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2021-03-09 03:45:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2021-03-12 16:22:07 +0000"
     },
     "done": true
   },
@@ -1347,6 +1384,12 @@
     "criteria": {
       "has_apple": "2021-03-10 02:44:58 +0000",
       "has_the_recipe": "2021-03-10 02:44:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2021-03-12 15:54:48 +0000"
     },
     "done": true
   },
@@ -1797,6 +1840,7 @@
       "minecraft:birch_forest": "2021-03-10 03:05:37 +0000",
       "minecraft:beach": "2021-03-10 03:41:39 +0000",
       "minecraft:river": "2021-03-09 02:29:33 +0000",
+      "minecraft:birch_forest_hills": "2021-03-12 16:15:02 +0000",
       "minecraft:wooded_mountains": "2021-03-09 03:01:34 +0000",
       "minecraft:wooded_hills": "2021-03-09 03:01:27 +0000",
       "minecraft:swamp": "2021-03-10 03:43:20 +0000",
@@ -1813,6 +1857,12 @@
   "minecraft:recipes/decorations/purple_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2021-03-09 03:45:47 +0000"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/turtle_normal/minecraft/crafting_table": {
+    "criteria": {
+      "has_items": "2021-03-12 17:07:33 +0000"
     },
     "done": true
   },
@@ -2029,6 +2079,12 @@
   "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
       "has_stone": "2021-03-11 04:09:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2021-03-12 15:54:48 +0000"
     },
     "done": true
   },
