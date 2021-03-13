@@ -1,63 +1,340 @@
-[19:19:18] [main/INFO]: Loading for game Minecraft 1.16.5
-[19:19:19] [main/INFO]: [FabricLoader] Loading 63 mods: fabric-renderer-api-v1@0.4.1+ca58154a7d, fabric-keybindings-v0@0.2.1+ca58154a7d, fabricloader@0.11.2, bbor@2.4-1.16.3, fabric-structure-api-v1@1.1.4+ca58154a7d, lithium@0.6.4, fabric-containers-v0@0.1.11+9354966b7d, fabric-object-builder-api-v1@1.9.4+9354966b7d, fabric-dimensions-v1@2.0.6+9354966b7d, java@11, fabric-game-rule-api-v1@1.0.6+ca58154a7d, fabric-api-base@0.2.1+9354966b7d, fabric-rendering-data-attachment-v1@0.1.5+ca58154a7d, fabric-textures-v0@1.0.6+ca58154a7d, com_electronwill_night-config_core@3.6.3, randompatches@2.4.5-fabric, fabric-rendering-fluids-v1@0.1.13+ca58154a7d, fabric-blockrenderlayer-v1@1.1.5+ca58154a7d, fabric-lifecycle-events-v1@1.2.1+ca58154a7d, fabric-renderer-registries-v1@2.2.1+ca58154a7d, fabric-loot-tables-v1@1.0.2+ca58154a7d, carpet-extra@1.4.27, fabric@0.32.0+1.16, carpet@1.4.29, fabric-particles-v1@0.2.4+ca58154a7d, autoconfigtoml@1.0.0-fabric, fabric-networking-v0@0.3.2+ca58154a7d, fabric-api-lookup-api-v1@1.0.0+dc716ea17d, fabric-screen-handler-api-v1@1.1.5+9354966b7d, minecraft@1.16.5, fabric-networking-blockentity-v0@0.2.8+ca58154a7d, fabric-command-api-v1@1.1.0+f9b3753b7d, cloth-basic-math@0.5.1, javax_vecmath_vecmath@1.5.2, phosphor@0.7.1+build.11, cloth-utils-v1@1.4.5, fabric-screen-api-v1@1.0.0+c045166c7d, fabric-tool-attribute-api-v1@1.2.6+ca58154a7d, fabric-renderer-indigo@0.4.4+ca58154a7d, com_electronwill_night-config_toml@3.6.3, fabric-item-api-v1@1.2.1+ca58154a7d, fabric-events-interaction-v0@0.4.2+ca58154a7d, fabric-crash-report-info-v1@0.1.3+ca58154a7d, fabric-entity-events-v1@1.0.3+ca58154a7d, fabric-rendering-v0@1.1.2+ca58154a7d, fabric-rendering-v1@1.5.1+ca58154a7d, fabric-key-binding-api-v1@1.0.4+9354966b7d, cloth-config2@4.8.3, fabric-resource-loader-v0@0.4.2+ca58154a7d, autoconfig1u@3.3.1, fabric-content-registries-v0@0.2.1+ca58154a7d, fabric-tag-extensions-v0@1.1.1+ca58154a7d, blue_endless_jankson@1.2.0, fabric-biome-api-v1@3.1.1+ca58154a7d, computercraft@1.91.2, fabric-registry-sync-v0@0.7.4+ca58154a7d, fabric-commands-v0@0.2.2+ca58154a7d, fabric-mining-levels-v0@0.1.3+ca58154a7d, fabric-networking-api-v1@1.0.1+ca58154a7d, fabric-events-lifecycle-v0@0.2.1+ca58154a7d, fabric-item-groups-v0@0.2.3+ca58154a7d, fabric-models-v0@0.2.1+ca58154a7d, fabric-object-builders-v0@0.7.2+ca58154a7d
-[19:19:19] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/home/ubuntu/maicra/fabric-server-launch.jar Service=Knot/Fabric Env=SERVER
-[19:19:22] [main/WARN]: @Mixin target net/minecraft/class_3898$class_3208 is public in fabric-networking-[19:19:33] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19:19:34] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[19:19:34] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[19:19:34] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[19:19:34] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[19:19:34] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[19:19:34] [main/INFO]: Reloading ResourceManager: Default, graves v2.8.0.zip, Home datapack v1.4.2, tpa v2.3.0.zip, Fabric Mods (Fabric Tool Attribute API (v1), CC:T for Fabric)
-[19:19:37] [Worker-Main-2/INFO]: Loaded 7 recipes
-[19:19:38] [Worker-Main-2/INFO]: Loaded 1045 advancements
-[19:19:40] [main/INFO]: Applied 0 biome modifications to 0 of 79 new biomes in 2.005 ms
-[19:19:40] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[19:19:40] [Server thread/INFO]: Loading properties
-[19:19:40] [Server thread/INFO]: Default game type: SURVIVAL
-[19:19:40] [Server thread/INFO]: Generating keypair
-[19:19:40] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:19:40] [Server thread/INFO]: Using epoll channel type
-[19:19:41] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:19:41] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:19:41] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:19:41] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:19:41] [Server thread/INFO]: Preparing level "mundotrucha"
-[19:19:41] [Server thread/INFO]: [CM]: loaded setting carpets as true from carpet.conf
-[19:19:41] [Server thread/INFO]: [CM]: loaded setting stackableShulkerBoxes as true from carpet.conf
-[19:19:41] [Server thread/INFO]: [CM]: loaded setting shulkerSpawningInEndCities as true from carpet.conf
-[19:19:41] [Server thread/INFO]: [CM]: loaded setting hopperMinecartItemTransfer as true from carpet.conf
-[19:19:41] [Server thread/INFO]: [CM]: loaded setting betterBonemeal as true from carpet.conf
-[19:19:41] [Server thread/INFO]: [CM]: loaded setting renewableBlackstone as true from carpet.conf
-[19:19:41] [Server thread/INFO]: [CM]: loaded setting onePlayerSleeping as true from carpet.conf
-[19:19:41] [Server thread/INFO]: [CM]: loaded setting dispensersFeedAnimals as true from carpet.conf
-[19:19:41] [Server thread/INFO]: [CM]: loaded setting optimizedTNT as true from carpet.conf
-[19:19:41] [Server thread/INFO]: [CM]: loaded setting lightningKillsDropsFix as true from carpet.conf
-[19:19:41] [Server thread/INFO]: [CM]: loaded setting flippinCactus as true from carpet.conf
-[19:19:42] [Server thread/INFO]: create world dimension: minecraft:overworld (seed: 2709456112361443172)
-[19:19:42] [Server thread/INFO]: create world dimension: minecraft:the_nether (seed: 2709456112361443172)
-[19:19:42] [Server thread/INFO]: create world dimension: minecraft:the_end (seed: 2709456112361443172)
-[19:19:42] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:19:43] [Server thread/INFO]: Preparing spawn area: 0%
-[19:19:43] [Server thread/INFO]: Preparing spawn area: 0%
-[19:19:43] [Server thread/INFO]: Preparing spawn area: 0%
-[19:19:43] [Server thread/INFO]: Preparing spawn area: 0%
-[19:19:44] [Server thread/INFO]: Preparing spawn area: 0%
-[19:19:44] [Server thread/INFO]: Time elapsed: 2395 ms
-[19:19:44] [Server thread/INFO]: Done (3.226s)! For help, type "help"
-[19:19:44] [Server thread/INFO]: Starting remote control listener
-[19:19:44] [Server thread/INFO]: Thread RCON Listener started
-[19:19:44] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[19:20:58] [Server thread/INFO]: Stopping the server
-[19:20:58] [Server thread/INFO]: Stopping server
-[19:20:58] [Server thread/INFO]: Saving players
-[19:20:58] [Server thread/INFO]: Saving worlds
-[19:20:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[mundotrucha]'/minecraft:overworld
-[19:21:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (mundotrucha): All chunks are saved
-[19:21:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[mundotrucha]'/minecraft:the_nether
-[19:21:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:21:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[mundotrucha]'/minecraft:the_end
-[19:21:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:21:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (mundotrucha): All chunks are saved
-[19:21:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:21:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:21:00] [Server thread/INFO]: Thread RCON Listener stopped
+[00:29:55] [main/INFO]: Loading for game Minecraft 1.16.5
+[00:29:56] [main/INFO]: [FabricLoader] Loading 63 mods: fabric-renderer-api-v1@0.4.1+ca58154a7d, fabric-keybindings-v0@0.2.1+ca58154a7d, fabricloader@0.11.2, bbor@2.4-1.16.3, fabric-structure-api-v1@1.1.4+ca58154a7d, lithium@0.6.4, fabric-containers-v0@0.1.11+9354966b7d, fabric-object-builder-api-v1@1.9.4+9354966b7d, fabric-dimensions-v1@2.0.6+9354966b7d, java@11, fabric-game-rule-api-v1@1.0.6+ca58154a7d, fabric-api-base@0.2.1+9354966b7d, fabric-rendering-data-attachment-v1@0.1.5+ca58154a7d, fabric-textures-v0@1.0.6+ca58154a7d, com_electronwill_night-config_core@3.6.3, randompatches@2.4.5-fabric, fabric-rendering-fluids-v1@0.1.13+ca58154a7d, fabric-blockrenderlayer-v1@1.1.5+ca58154a7d, fabric-lifecycle-events-v1@1.2.1+ca58154a7d, fabric-renderer-registries-v1@2.2.1+ca58154a7d, fabric-loot-tables-v1@1.0.2+ca58154a7d, carpet-extra@1.4.27, fabric@0.32.0+1.16, carpet@1.4.29, fabric-particles-v1@0.2.4+ca58154a7d, autoconfigtoml@1.0.0-fabric, fabric-networking-v0@0.3.2+ca58154a7d, fabric-api-lookup-api-v1@1.0.0+dc716ea17d, fabric-screen-handler-api-v1@1.1.5+9354966b7d, minecraft@1.16.5, fabric-networking-blockentity-v0@0.2.8+ca58154a7d, fabric-command-api-v1@1.1.0+f9b3753b7d, cloth-basic-math@0.5.1, javax_vecmath_vecmath@1.5.2, phosphor@0.7.1+build.11, cloth-utils-v1@1.4.5, fabric-screen-api-v1@1.0.0+c045166c7d, fabric-tool-attribute-api-v1@1.2.6+ca58154a7d, fabric-renderer-indigo@0.4.4+ca58154a7d, com_electronwill_night-config_toml@3.6.3, fabric-item-api-v1@1.2.1+ca58154a7d, fabric-events-interaction-v0@0.4.2+ca58154a7d, fabric-crash-report-info-v1@0.1.3+ca58154a7d, fabric-entity-events-v1@1.0.3+ca58154a7d, fabric-rendering-v0@1.1.2+ca58154a7d, fabric-rendering-v1@1.5.1+ca58154a7d, fabric-key-binding-api-v1@1.0.4+9354966b7d, cloth-config2@4.8.3, fabric-resource-loader-v0@0.4.2+ca58154a7d, autoconfig1u@3.3.1, fabric-content-registries-v0@0.2.1+ca58154a7d, fabric-tag-extensions-v0@1.1.1+ca58154a7d, blue_endless_jankson@1.2.0, fabric-biome-api-v1@3.1.1+ca58154a7d, computercraft@1.91.2, fabric-registry-sync-v0@0.7.4+ca58154a7d, fabric-commands-v0@0.2.2+ca58154a7d, fabric-mining-levels-v0@0.1.3+ca58154a7d, fabric-networking-api-v1@1.0.1+ca58154a7d, fabric-events-lifecycle-v0@0.2.1+ca58154a7d, fabric-item-groups-v0@0.2.3+ca58154a7d, fabric-models-v0@0.2.1+ca58154a7d, fabric-object-builders-v0@0.7.2+ca58154a7d
+[00:29:56] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/home/ubuntu/maicra/fabric-server-launch.jar Service=Knot/Fabric Env=SERVER
+[00:29:59] [main/WARN]: @Mixin target net/minecraft/class_3898$class_3208 is public in fabric-networking-[00:30:10] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[00:30:11] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[00:30:11] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[00:30:11] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[00:30:11] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[00:30:11] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[00:30:11] [main/INFO]: Reloading ResourceManager: Default, graves v2.8.0.zip, Home datapack v1.4.2, tpa v2.3.0.zip, Fabric Mods (Fabric Tool Attribute API (v1), CC:T for Fabric)
+[00:30:14] [Worker-Main-2/INFO]: Loaded 7 recipes
+[00:30:14] [Worker-Main-2/INFO]: Loaded 1045 advancements
+[00:30:16] [main/INFO]: Applied 0 biome modifications to 0 of 79 new biomes in 1.982 ms
+[00:30:16] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[00:30:16] [Server thread/INFO]: Loading properties
+[00:30:16] [Server thread/INFO]: Default game type: SURVIVAL
+[00:30:16] [Server thread/INFO]: Generating keypair
+[00:30:16] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:30:17] [Server thread/INFO]: Using epoll channel type
+[00:30:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:30:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:30:17] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:30:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:30:17] [Server thread/INFO]: Preparing level "mundotrucha"
+[00:30:17] [Server thread/INFO]: [CM]: loaded setting carpets as true from carpet.conf
+[00:30:17] [Server thread/INFO]: [CM]: loaded setting stackableShulkerBoxes as true from carpet.conf
+[00:30:17] [Server thread/INFO]: [CM]: loaded setting shulkerSpawningInEndCities as true from carpet.conf
+[00:30:17] [Server thread/INFO]: [CM]: loaded setting hopperMinecartItemTransfer as true from carpet.conf
+[00:30:17] [Server thread/INFO]: [CM]: loaded setting betterBonemeal as true from carpet.conf
+[00:30:17] [Server thread/INFO]: [CM]: loaded setting renewableBlackstone as true from carpet.conf
+[00:30:17] [Server thread/INFO]: [CM]: loaded setting onePlayerSleeping as true from carpet.conf
+[00:30:17] [Server thread/INFO]: [CM]: loaded setting dispensersFeedAnimals as true from carpet.conf
+[00:30:17] [Server thread/INFO]: [CM]: loaded setting optimizedTNT as true from carpet.conf
+[00:30:17] [Server thread/INFO]: [CM]: loaded setting lightningKillsDropsFix as true from carpet.conf
+[00:30:17] [Server thread/INFO]: [CM]: loaded setting flippinCactus as true from carpet.conf
+[00:30:18] [Server thread/INFO]: create world dimension: minecraft:overworld (seed: 2709456112361443172)
+[00:30:18] [Server thread/INFO]: create world dimension: minecraft:the_nether (seed: 2709456112361443172)
+[00:30:18] [Server thread/INFO]: create world dimension: minecraft:the_end (seed: 2709456112361443172)
+[00:30:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:30:20] [Server thread/INFO]: Preparing spawn area: 0%
+[00:30:20] [Server thread/INFO]: Preparing spawn area: 0%
+[00:30:20] [Server thread/INFO]: Preparing spawn area: 0%
+[00:30:20] [Server thread/INFO]: Preparing spawn area: 0%
+[00:30:20] [Server thread/INFO]: Preparing spawn area: 0%
+[00:30:20] [Server thread/INFO]: Preparing spawn area: 0%
+[00:30:21] [Server thread/INFO]: Time elapsed: 3143 ms
+[00:30:21] [Server thread/INFO]: Done (4.059s)! For help, type "help"
+[00:30:21] [Server thread/INFO]: Starting remote control listener
+[00:30:21] [Server thread/INFO]: Thread RCON Listener started
+[00:30:21] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[00:31:30] [Server thread/INFO]: jorge1b3[/181.236.171.97:53130] logged in with entity id 42 at (-44.31803047597547, 64.0, -206.094432324186)
+[00:31:30] [Server thread/INFO]: jorge1b3 joined the game
+[00:31:31] [Netty Epoll Server IO #2/INFO]: Player jorge1b3 joined with a matching carpet client
+[00:32:25] [Server thread/INFO]: OlaKiZo[/179.1.5.151:52867] logged in with entity id 322 at (-884.6999999880791, 84.875, -489.78669672704655)
+[00:32:25] [Server thread/INFO]: OlaKiZo joined the game
+[00:32:56] [ComputerCraft-Computer-Runner-0/WARN]: Getting GenericMethods without a provider
+[00:33:06] [Server thread/WARN]: Turtle has open container (net.minecraft.class_1723@776d308f)
+[00:36:53] [Server thread/INFO]: <OlaKiZo> hola koke
+[00:37:00] [Server thread/INFO]: <jorge1b3> hola jose
+[00:37:28] [Server thread/INFO]: <OlaKiZo> que andas haciendo?
+[00:37:39] [Server thread/INFO]: <jorge1b3> no, le mostaba a santi el server
+[00:37:46] [Server thread/INFO]: <jorge1b3> ya se acaba de ir
+[00:38:05] [Server thread/INFO]: <OlaKiZo> aaaa si queres me salgo, si lo ibas a apagar
+[00:38:10] [Server thread/INFO]: <jorge1b3> ahora voy a nether
+[00:38:21] [Server thread/INFO]: <jorge1b3> no, si queires juega
+[00:38:27] [Server thread/INFO]: <OlaKiZo> aaa bueno
+[00:38:28] [Server thread/INFO]: <jorge1b3> ya avisé que lo prendí
+[00:39:36] [Server thread/INFO]: kyodarD[/167.0.32.169:56979] logged in with entity id 2261 at (-312.3750209858114, 67.0, -213.3029100393513)
+[00:39:36] [Server thread/INFO]: kyodarD joined the game
+[00:39:43] [Server thread/INFO]: <jorge1b3> hola pez
+[00:39:50] [Server thread/INFO]: <OlaKiZo> hola pez}
+[00:40:20] [Server thread/WARN]: Turtle has open container (net.minecraft.class_1723@7d09db18)
+[00:40:48] [Server thread/INFO]: Made jorge1b3 a server operator
+[00:41:04] [Server thread/INFO]: Alex[local] logged in with entity id 2954 at (-40.741525204506615, 11.0, -212.70984473358678)
+[00:41:04] [Server thread/INFO]: Alex joined the game
+[00:41:29] [Server thread/INFO]: [jorge1b3: Teleported Alex to -38.5, 11.0, -211.5]
+[00:41:33] [Server thread/INFO]: [jorge1b3: Teleported Alex to -38.5, 11.0, -211.5]
+[00:41:37] [Server thread/INFO]: [jorge1b3: Teleported Alex to -38.5, 11.0, -211.5]
+[00:41:42] [Server thread/INFO]: [jorge1b3: Teleported Alex to -38.5, 11.0, -211.5]
+[00:41:48] [Server thread/INFO]: [jorge1b3: Teleported Alex to -38.5, 11.0, -212.5]
+[00:41:48] [Server thread/INFO]: <OlaKiZo> pez?
+[00:42:02] [Server thread/INFO]: <OlaKiZo> que estas haciendo alla arriba?
+[00:42:13] [Server thread/INFO]: [jorge1b3: Set Alex's game mode to Creative Mode]
+[00:42:17] [Server thread/INFO]: kyodarD fell from a high place
+[00:42:30] [Server thread/INFO]: <kyodarD> lag
+[00:42:34] [Server thread/INFO]: <OlaKiZo> xd
+[00:42:47] [Server thread/INFO]: <jorge1b3> dale /ping
+[00:43:01] [Server thread/INFO]: <kyodarD> 211
+[00:43:06] [Server thread/INFO]: <kyodarD> ts?
+[00:43:06] [Server thread/INFO]: [jorge1b3: Teleported Alex to -38.5, 11.0, -212.5]
+[00:43:08] [Server thread/INFO]: <OlaKiZo> 500 xd
+[00:43:13] [Server thread/INFO]: [jorge1b3: Teleported Alex to -38.5, 11.0, -212.5]
+[00:43:21] [Server thread/INFO]: <jorge1b3> yo tambien tengo lag xd
+[00:43:49] [Server thread/INFO]: <jorge1b3> ya voy a ts
+[00:44:36] [Server thread/INFO]: OlaKiZo fell from a high place
+[00:45:32] [Server thread/INFO]: [OlaKiZo: Triggered [death_location]]
+[00:45:56] [Server thread/INFO]: JKGAMER115[/190.66.48.52:63241] logged in with entity id 4411 at (-881.4930592394364, 86.0, -507.88888745005187)
+[00:45:56] [Server thread/INFO]: JKGAMER115 joined the game
+[00:47:34] [Server thread/INFO]: [OlaKiZo: Triggered [home] (set value to 2)]
+[00:48:07] [Server thread/INFO]: [jorge1b3: Triggered [tpa] (set value to 3)]
+[00:48:10] [Server thread/INFO]: [OlaKiZo: Triggered [tpaccept]]
+[00:49:04] [Server thread/INFO]: [jorge1b3: Triggered [home]]
+[00:52:10] [Server thread/INFO]: [jorge1b3: Triggered [home]]
+[00:52:20] [Server thread/INFO]: [jorge1b3: Set own game mode to Creative Mode]
+[00:52:55] [Server thread/INFO]: [jorge1b3: Successfully filled 80 blocks]
+[00:56:42] [Server thread/INFO]: [OlaKiZo: Triggered [home] (set value to 2)]
+[00:56:51] [Server thread/INFO]: [jorge1b3: Set own game mode to Survival Mode]
+[00:57:01] [Server thread/INFO]: <OlaKiZo> ts? juank
+[00:57:07] [Server thread/INFO]: <JKGAMER115> voy
+[00:58:00] [Server thread/INFO]: [jorge1b3: Set own game mode to Creative Mode]
+[00:58:22] [Server thread/WARN]: Turtle has open container (net.minecraft.class_1723@39330739)
+[00:58:26] [Server thread/INFO]: [jorge1b3: Successfully filled 51 blocks]
+[00:58:33] [Server thread/INFO]: [jorge1b3: Successfully filled 51 blocks]
+[00:58:49] [Server thread/INFO]: [jorge1b3: Successfully filled 51 blocks]
+[00:59:58] [Server thread/INFO]: [jorge1b3: Set own game mode to Survival Mode]
+[01:00:12] [Server thread/INFO]: [jorge1b3: Set own game mode to Creative Mode]
+[01:00:15] [Server thread/INFO]: OlaKiZo lost connection: Disconnected
+[01:00:15] [Server thread/INFO]: OlaKiZo left the game
+[01:00:29] [Server thread/INFO]: OlaKiZo[/179.1.5.151:53056] logged in with entity id 11948 at (-846.5, 73.0, -525.973454316388)
+[01:00:29] [Server thread/INFO]: OlaKiZo joined the game
+[01:00:49] [Server thread/INFO]: [jorge1b3: Set own game mode to Survival Mode]
+[01:01:05] [Server thread/INFO]: jorge1b3 fell from a high place
+[01:02:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-41, y=28, z=-216} class_2338{x=-41, y=29, z=-216}
+[01:02:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-41, y=27, z=-216} class_2338{x=-41, y=29, z=-216}
+[01:02:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-41, y=27, z=-216} class_2338{x=-41, y=29, z=-216}
+[01:02:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-41, y=27, z=-216} class_2338{x=-41, y=29, z=-216}
+[01:02:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-41, y=27, z=-216} class_2338{x=-41, y=29, z=-216}
+[01:02:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-41, y=27, z=-216} class_2338{x=-41, y=29, z=-216}
+[01:02:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-41, y=24, z=-216} class_2338{x=-41, y=29, z=-216}
+[01:04:06] [Server thread/WARN]: Turtle has open container (net.minecraft.class_1723@56cc2415)
+[01:05:19] [Server thread/WARN]: OlaKiZo moved wrongly!
+[01:08:47] [Server thread/INFO]: [JKGAMER115: Triggered [home]]
+[01:12:25] [Server thread/WARN]: Turtle has open container (net.minecraft.class_1723@1c00dc21)
+[01:14:01] [Server thread/INFO]: [JKGAMER115: Triggered [home]]
+[01:14:26] [Server thread/INFO]: jorge1b3 burned to death
+[01:14:44] [Server thread/INFO]: [jorge1b3: Triggered [death_location]]
+[01:15:26] [Server thread/INFO]: <kyodarD> f
+[01:15:32] [Server thread/INFO]: <OlaKiZo> G
+[01:15:35] [Server thread/INFO]: <OlaKiZo> F
+[01:17:09] [Server thread/INFO]: OlaKiZo fell from a high place
+[01:17:46] [Server thread/INFO]: [OlaKiZo: Triggered [death_location]]
+[01:17:46] [Server thread/WARN]: Fetching packet for removed entity class_1531['death_location_tp'/20910, l='ServerLevel[mundotrucha]', x=-122.50, y=36.00, z=-127.50]
+[01:17:46] [Server thread/INFO]: Changing UUID of duplicate entity minecraft:entities/armor_stand from e3fc06ce-bc3c-482f-9229-9e058fe77621 to 4a42f553-6ac6-4daf-a20b-ad03d1516dca
+[01:17:46] [Server thread/INFO]: Changing UUID of duplicate entity minecraft:entities/armor_stand from 1a64f4eb-2648-4690-90a3-d6695364cdf9 to e927b0aa-e3e0-4448-a748-1baf6ac7de09
+[01:17:46] [Server thread/INFO]: Changing UUID of duplicate entity minecraft:entities/area_effect_cloud from 32efd9cc-3a7c-4012-ad06-17b485b128ad to c55f53a8-e080-4a13-bf60-bcda2e70b083
+[01:17:57] [Server thread/INFO]: [jorge1b3: Triggered [home]]
+[01:18:02] [Server thread/INFO]: OlaKiZo was fireballed by Ghast
+[01:18:48] [Server thread/INFO]: [OlaKiZo: Triggered [death_location]]
+[01:18:48] [Server thread/WARN]: Fetching packet for removed entity class_1531['death_location_tp'/21507, l='ServerLevel[mundotrucha]', x=-122.50, y=36.00, z=-127.50]
+[01:18:48] [Server thread/INFO]: Changing UUID of duplicate entity minecraft:entities/armor_stand from e3fc06ce-bc3c-482f-9229-9e058fe77621 to 3dda27ce-70a8-4301-80f6-47c0b56c33bc
+[01:18:48] [Server thread/INFO]: Changing UUID of duplicate entity minecraft:entities/armor_stand from 1a64f4eb-2648-4690-90a3-d6695364cdf9 to f4cb2083-9714-4dfa-835c-2bf58e5a63ba
+[01:18:48] [Server thread/INFO]: Changing UUID of duplicate entity minecraft:entities/area_effect_cloud from 32efd9cc-3a7c-4012-ad06-17b485b128ad to 335e4a4e-41bb-4600-a844-35bc268359c4
+[01:18:54] [Server thread/INFO]: [jorge1b3: Triggered [back]]
+[01:20:46] [Server thread/INFO]: [jorge1b3: Teleported Alex to -338.8, 11.0, -212.64]
+[01:22:30] [Server thread/INFO]: JKGAMER115 lost connection: Disconnected
+[01:22:30] [Server thread/INFO]: JKGAMER115 left the game
+[01:22:47] [Server thread/INFO]: JKGAMER115[/190.96.144.152:63593] logged in with entity id 23252 at (-882.6558183049357, 100.0, -481.77492448841235)
+[01:22:47] [Server thread/INFO]: JKGAMER115 joined the game
+[01:23:19] [Server thread/INFO]: [JKGAMER115: Triggered [home]]
+[01:23:20] [Server thread/INFO]: [jorge1b3: Triggered [home]]
+[01:23:33] [Server thread/INFO]: [jorge1b3: Triggered [tpa] (set value to 3)]
+[01:23:50] [Server thread/INFO]: [OlaKiZo: Triggered [tpaccept]]
+[01:24:50] [Server thread/INFO]: [jorge1b3: Triggered [back]]
+[01:25:10] [Server thread/INFO]: [kyodarD: Triggered [home] (set value to 2)]
+[01:26:02] [Server thread/INFO]: [jorge1b3: Triggered [home]]
+[01:26:10] [Server thread/INFO]: [jorge1b3: Triggered [back]]
+[01:26:13] [Server thread/INFO]: [kyodarD: Triggered [back]]
+[01:26:54] [Server thread/INFO]: [jorge1b3: Triggered [home]]
+[01:26:59] [Server thread/WARN]: Fetching packet for removed entity class_1542['Air'/26046, l='ServerLevel[mundotrucha]', x=-46.20, y=64.00, z=-178.51]
+[01:27:28] [Server thread/INFO]: [jorge1b3: Triggered [back]]
+[01:27:30] [Server thread/INFO]: [jorge1b3: Triggered [home]]
+[01:28:07] [Server thread/INFO]: JKGAMER115 has made the advancement [Hot Stuff]
+[01:28:29] [Server thread/INFO]: [jorge1b3: Triggered [back]]
+[01:29:19] [Server thread/INFO]: jorge1b3 was slain by Zombie
+[01:29:43] [Server thread/INFO]: [JKGAMER115: Triggered [home]]
+[01:31:23] [Server thread/INFO]: [kyodarD: Triggered [home] (set value to 2)]
+[01:31:59] [Server thread/INFO]: [JKGAMER115: Triggered [home]]
+[01:32:19] [Server thread/INFO]: [jorge1b3: Triggered [death_location]]
+[01:32:32] [Server thread/INFO]: jorge1b3 was slain by Zombie
+[01:32:38] [Server thread/INFO]: [jorge1b3: Triggered [death_location]]
+[01:32:52] [Server thread/INFO]: [kyodarD: Triggered [tpa] (set value to 3)]
+[01:33:19] [Server thread/INFO]: [OlaKiZo: Triggered [tpaccept]]
+[01:38:12] [Server thread/INFO]: [kyodarD: Triggered [home] (set value to 2)]
+[01:39:20] [Server thread/WARN]: Fetching packet for removed entity class_1542['Air'/31505, l='ServerLevel[mundotrucha]', x=-522.50, y=11.88, z=-212.50]
+[01:39:20] [Server thread/WARN]: Fetching packet for removed entity class_1542['Air'/31505, l='ServerLevel[mundotrucha]', x=-522.50, y=11.88, z=-212.50]
+[01:39:38] [Server thread/WARN]: Fetching packet for removed entity class_1542['Air'/31655, l='ServerLevel[mundotrucha]', x=-524.50, y=11.88, z=-212.50]
+[01:39:38] [Server thread/WARN]: Fetching packet for removed entity class_1542['Air'/31655, l='ServerLevel[mundotrucha]', x=-524.50, y=11.88, z=-212.50]
+[01:39:55] [Server thread/WARN]: Fetching packet for removed entity class_1542['Air'/31940, l='ServerLevel[mundotrucha]', x=-526.50, y=11.88, z=-212.50]
+[01:39:55] [Server thread/WARN]: Fetching packet for removed entity class_1542['Air'/31940, l='ServerLevel[mundotrucha]', x=-526.50, y=11.88, z=-212.50]
+[01:40:04] [Server thread/WARN]: Fetching packet for removed entity class_1542['Air'/32052, l='ServerLevel[mundotrucha]', x=-527.50, y=11.88, z=-212.50]
+[01:40:04] [Server thread/WARN]: Fetching packet for removed entity class_1542['Air'/32052, l='ServerLevel[mundotrucha]', x=-527.50, y=11.88, z=-212.50]
+[01:40:12] [Server thread/WARN]: Fetching packet for removed entity class_1542['Air'/32147, l='ServerLevel[mundotrucha]', x=-528.50, y=11.88, z=-212.50]
+[01:40:12] [Server thread/WARN]: Fetching packet for removed entity class_1542['Air'/32147, l='ServerLevel[mundotrucha]', x=-528.50, y=11.88, z=-212.50]
+[01:41:03] [Server thread/WARN]: Turtle has open container (net.minecraft.class_1723@64d3fdaf)
+[01:43:41] [Server thread/WARN]: Turtle has open container (net.minecraft.class_1723@31b950e0)
+[01:45:08] [Server thread/WARN]: Turtle has open container (net.minecraft.class_1723@67a8d8da)
+[01:47:15] [Server thread/INFO]: [kyodarD: Triggered [home] (set value to 2)]
+[01:48:25] [Server thread/INFO]: JKGAMER115 was shot by Skeleton
+[01:48:40] [Server thread/INFO]: [jorge1b3: Triggered [home]]
+[01:49:00] [Server thread/INFO]: [JKGAMER115: Triggered [death_location]]
+[01:51:04] [Server thread/INFO]: [kyodarD: Triggered [home] (set value to 2)]
+[01:51:14] [Server thread/INFO]: [kyodarD: Triggered [back]]
+[01:51:33] [Server thread/INFO]: JKGAMER115 tried to swim in lava
+[01:52:31] [Server thread/WARN]: Turtle has open container (net.minecraft.class_1723@4f42b3a)
+[01:52:44] [Server thread/INFO]: [kyodarD: Triggered [tpa] (set value to 6)]
+[01:53:03] [Server thread/INFO]: [JKGAMER115: Triggered [tpaccept]]
+[01:57:32] [Server thread/INFO]: [kyodarD: Triggered [back]]
+[02:03:22] [Server thread/INFO]: JKGAMER115 was slain by Silverfish
+[02:03:39] [Server thread/INFO]: [JKGAMER115: Triggered [death_location]]
+[02:04:38] [Server thread/INFO]: [Server] triggr back no funciona con tpa
+[02:04:56] [Server thread/INFO]: [Server] para eso mejor primero denle trigger home y leugo si tpa
+[02:05:02] [Server thread/WARN]: Turtle has open container (net.minecraft.class_1723@7f549c8)
+[02:05:09] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[02:05:09] [Server thread/INFO]: <--[HERE]
+[02:05:30] [Server thread/INFO]: JKGAMER115 tried to swim in lava
+[02:06:01] [Server thread/WARN]: Fetching packet for removed entity class_1542['Air'/46704, l='ServerLevel[mundotrucha]', x=-45.40, y=64.00, z=-178.20]
+[02:13:26] [Server thread/INFO]: [kyodarD: Triggered [home] (set value to 2)]
+[02:18:01] [Server thread/INFO]: [kyodarD: Triggered [home] (set value to 2)]
+[02:18:14] [Server thread/INFO]: jorge1b3 fell from a high place
+[02:18:22] [Server thread/INFO]: jorge1b3 fell from a high place
+[02:18:37] [Server thread/INFO]: [jorge1b3: Triggered [death_location]]
+[02:19:43] [Server thread/INFO]: [kyodarD: Triggered [back]]
+[02:19:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-143, y=11, z=-265} class_2338{x=-143, y=11, z=-264}
+[02:22:29] [Server thread/INFO]: [kyodarD: Triggered [home] (set value to 2)]
+[02:23:58] [Server thread/INFO]: [kyodarD: Triggered [back]]
+[02:24:25] [Server thread/INFO]: [kyodarD: Triggered [home] (set value to 2)]
+[02:24:42] [Server thread/INFO]: [jorge1b3: Set Alex's game mode to Survival Mode]
+[02:25:57] [Server thread/INFO]: Alex went up in flames
+[02:25:57] [Server thread/INFO]: Alex lost connection: Alex died
+[02:25:57] [Server thread/INFO]: Alex left the game
+[02:26:21] [Server thread/INFO]: Alex[local] logged in with entity id 60290 at (-632.4541552211572, 11.0, -211.61464870790874)
+[02:26:21] [Server thread/INFO]: Alex joined the game
+[02:27:04] [Server thread/INFO]: [jorge1b3: Executed 17 commands from function 'graves:config/enable_robbing']
+[02:27:29] [Server thread/INFO]: [jorge1b3: Executed 1 commands from function 'graves:give_grave_key']
+[02:29:27] [Server thread/INFO]: [jorge1b3: Set [Graves Config] for #despawn to 600]
+[02:30:14] [Server thread/INFO]: [jorge1b3: Killed Alex]
+[02:30:14] [Server thread/INFO]: Alex lost connection: Killed
+[02:30:14] [Server thread/INFO]: Alex left the game
+[02:30:34] [Server thread/INFO]: [jorge1b3: Triggered [tpa] (set value to 4)]
+[02:30:43] [Server thread/INFO]: [jorge1b3: Triggered [tpa] (set value to 3)]
+[02:30:47] [Server thread/INFO]: [OlaKiZo: Triggered [tpaccept]]
+[02:31:20] [Server thread/INFO]: <kyodarD> Monika
+[02:31:30] [Server thread/INFO]: monika[local] logged in with entity id 62825 at (-1122.441933580939, 12.0, -274.8829677692543)
+[02:31:30] [Server thread/INFO]: monika joined the game
+[02:31:30] [Server thread/INFO]: monika has made the advancement [Stone Age]
+[02:31:34] [Server thread/INFO]: <OlaKiZo> Vigilante de la trucha
+[02:32:13] [Server thread/INFO]: [kyodarD: Triggered [tpa] (set value to 3)]
+[02:32:17] [Server thread/INFO]: [OlaKiZo: Triggered [tpaccept]]
+[02:32:25] [Server thread/INFO]: [jorge1b3: Killed monika]
+[02:32:25] [Server thread/INFO]: monika lost connection: Killed
+[02:32:25] [Server thread/INFO]: monika left the game
+[02:32:38] [Server thread/INFO]: monika[local] logged in with entity id 63422 at (-1122.587020690169, 12.0, -276.1431481728131)
+[02:32:38] [Server thread/INFO]: monika joined the game
+[02:32:39] [Server thread/INFO]: <OlaKiZo> VigilanteDeLaTrucha
+[02:33:27] [Server thread/INFO]: monika suffocated in a wall
+[02:33:27] [Server thread/INFO]: monika lost connection: monika died
+[02:33:27] [Server thread/INFO]: monika left the game
+[02:33:42] [Server thread/INFO]: [JKGAMER115: Triggered [home]]
+[02:33:47] [Server thread/INFO]: [jorge1b3: Teleported JKGAMER115 to -1123.4604197714475, 12.0, -277.4252707934869]
+[02:33:57] [Server thread/INFO]: [kyodarD: Triggered [home] (set value to 2)]
+[02:34:43] [Server thread/INFO]: [OlaKiZo: Triggered [home] (set value to 2)]
+[02:35:49] [Server thread/INFO]: Ekk1h[/186.118.74.171:1840] logged in with entity id 64777 at (114.97149871103353, 73.0, -204.00594167770984)
+[02:35:49] [Server thread/INFO]: Ekk1h joined the game
+[02:36:29] [Server thread/INFO]: <jorge1b3> donde estam
+[02:37:46] [Server thread/INFO]: [jorge1b3: Triggered [tpa] (set value to 4)]
+[02:37:50] [Server thread/INFO]: [kyodarD: Triggered [tpaccept]]
+[02:38:18] [Server thread/INFO]: Monica[local] logged in with entity id 66380 at (-353.3427781061473, 64.0, -181.46673547175283)
+[02:38:18] [Server thread/INFO]: Monica joined the game
+[02:39:00] [Server thread/INFO]: [OlaKiZo: Triggered [home] (set value to 2)]
+[02:39:31] [Server thread/INFO]: [JKGAMER115: Triggered [home]]
+[02:39:45] [Server thread/INFO]: [Ekk1h: Triggered [tpa] (set value to 4)]
+[02:39:48] [Server thread/INFO]: [kyodarD: Triggered [tpaccept]]
+[02:40:19] [Server thread/INFO]: [OlaKiZo: Triggered [tpa] (set value to 6)]
+[02:40:25] [Server thread/INFO]: [OlaKiZo: Triggered [tpcancel]]
+[02:40:43] [Server thread/INFO]: [OlaKiZo: Triggered [tpa] (set value to 4)]
+[02:40:46] [Server thread/INFO]: [kyodarD: Triggered [tpaccept]]
+[02:40:53] [Server thread/INFO]: [jorge1b3: Summoned new Bat]
+[02:40:55] [Server thread/INFO]: [JKGAMER115: Triggered [tpa] (set value to 4)]
+[02:40:59] [Server thread/INFO]: [kyodarD: Triggered [tpaccept]]
+[02:41:08] [Server thread/WARN]: Ignored advancement 'vanillatweaks:kill_empty_boats' in progress file ./mundotrucha/advancements/3c4e86be-57f4-4f45-8158-c6547211a498.json - it doesn't exist anymore?
+[02:41:08] [Server thread/WARN]: Ignored advancement 'vanillatweaks:silence_mobs' in progress file ./mundotrucha/advancements/3c4e86be-57f4-4f45-8158-c6547211a498.json - it doesn't exist anymore?
+[02:41:08] [Server thread/WARN]: Ignored advancement 'vanillatweaks:multiplayer_sleep' in progress file ./mundotrucha/advancements/3c4e86be-57f4-4f45-8158-c6547211a498.json - it doesn't exist anymore?
+[02:41:08] [Server thread/WARN]: Ignored advancement 'vanillatweaks:double_shulker_shells' in progress file ./mundotrucha/advancements/3c4e86be-57f4-4f45-8158-c6547211a498.json - it doesn't exist anymore?
+[02:41:08] [Server thread/INFO]: ElRichMC[local] logged in with entity id 67356 at (-340.69999998807907, 64.0, -187.30000001192093)
+[02:41:08] [Server thread/INFO]: ElRichMC joined the game
+[02:41:43] [Server thread/INFO]: [jorge1b3: Summoned new Bat]
+[02:41:53] [Server thread/INFO]: [jorge1b3: Summoned new Bat]
+[02:42:10] [Server thread/INFO]: JKGAMER115 lost connection: Disconnected
+[02:42:10] [Server thread/INFO]: JKGAMER115 left the game
+[02:42:10] [Server thread/INFO]: ElRichMC has made the advancement [Stone Age]
+[02:42:47] [Server thread/INFO]: [jorge1b3: Set ElRichMC's game mode to Creative Mode]
+[02:42:58] [Server thread/INFO]: [OlaKiZo: Triggered [home] (set value to 2)]
+[02:42:58] [Server thread/INFO]: Changing UUID of duplicate entity minecraft:entities/item_frame from 513a998b-61d1-4eda-934d-be4c4f8f5c85 to 850a793f-3947-4194-bc8f-a39598b0746c
+[02:42:58] [Server thread/INFO]: Changing UUID of duplicate entity minecraft:entities/item_frame from b8eed8ff-05c1-4830-93e3-3673b5af7c52 to 3faaeab0-4532-4458-bea3-8119bc217bd0
+[02:43:03] [Server thread/INFO]: OlaKiZo lost connection: Disconnected
+[02:43:03] [Server thread/INFO]: OlaKiZo left the game
+[02:45:04] [Server thread/INFO]: [jorge1b3: Triggered [sethome] (set value to 18)]
+[02:46:13] [Server thread/INFO]: [jorge1b3: Triggered [home] (set value to 18)]
+[02:47:31] [Server thread/INFO]: jorge1b3 fell from a high place
+[02:47:35] [Server thread/INFO]: [jorge1b3: Triggered [home] (set value to 18)]
+[02:49:30] [Server thread/INFO]: kyodarD fell from a high place
+[02:49:31] [Server thread/INFO]: jorge1b3 fell from a high place
+[02:49:35] [Server thread/INFO]: [jorge1b3: Triggered [home] (set value to 18)]
+[02:49:48] [Server thread/INFO]: [jorge1b3: Triggered [death_location]]
+[02:54:54] [Server thread/INFO]: [kyodarD: Triggered [home] (set value to 2)]
+[02:55:11] [Server thread/INFO]: [jorge1b3: Triggered [home] (set value to 18)]
+[02:57:05] [Server thread/INFO]: Madoka[local] logged in with entity id 71293 at (-323.8636841848888, 63.0, -176.29873140501186)
+[02:57:05] [Server thread/INFO]: Madoka joined the game
+[02:59:00] [Server thread/INFO]: [jorge1b3: Gave 1 [Madoka's Head] to jorge1b3]
+[02:59:40] [Server thread/INFO]: [jorge1b3: Set Madoka's game mode to Creative Mode]
+[03:00:02] [Server thread/INFO]: killercreper55[local] logged in with entity id 72053 at (-317.08833367286496, 68.0, -197.5455142478323)
+[03:00:02] [Server thread/INFO]: killercreper55 joined the game
+[03:00:02] [Server thread/WARN]: Fetching packet for removed entity class_1542['Spruce Planks'/72052, l='ServerLevel[mundotrucha]', x=-318.19, y=68.88, z=-198.75]
+[03:02:06] [Server thread/INFO]: kyodarD lost connection: Disconnected
+[03:02:06] [Server thread/INFO]: kyodarD left the game
+[03:02:13] [Server thread/INFO]: monika[local] logged in with entity id 72612 at (-316.0434107161659, 68.0, -198.32074238276405)
+[03:02:13] [Server thread/INFO]: monika joined the game
+[03:02:13] [Server thread/WARN]: Skipping Entity with id 
+[03:03:01] [Server thread/INFO]: jorge1b3 lost connection: Disconnected
+[03:03:01] [Server thread/INFO]: jorge1b3 left the game
+[03:03:14] [Server thread/INFO]: kyodarD[/167.0.32.169:60307] logged in with entity id 72825 at (-309.8708115940213, 68.0, -201.6544581245075)
+[03:03:14] [Server thread/INFO]: kyodarD joined the game
+[03:03:33] [Server thread/INFO]: kyodarD lost connection: Disconnected
+[03:03:33] [Server thread/INFO]: kyodarD left the game
+[03:03:34] [Server thread/INFO]: Ekk1h lost connection: Disconnected
+[03:03:34] [Server thread/INFO]: Ekk1h left the game
+[03:03:35] [Server thread/INFO]: Stopping the server
+[03:03:35] [Server thread/INFO]: Stopping server
+[03:03:35] [Server thread/INFO]: Saving players
+[03:03:35] [Server thread/INFO]: Saving worlds
+[03:03:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[mundotrucha]'/minecraft:overworld
+[03:03:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (mundotrucha): All chunks are saved
+[03:03:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[mundotrucha]'/minecraft:the_nether
+[03:03:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:03:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[mundotrucha]'/minecraft:the_end
+[03:03:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:03:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (mundotrucha): All chunks are saved
+[03:03:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:03:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:03:37] [Server thread/INFO]: Thread RCON Listener stopped

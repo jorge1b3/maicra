@@ -179,6 +179,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2021-03-13 00:43:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_granite_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2021-03-11 02:40:00 +0000"
@@ -377,6 +383,7 @@
       "minecraft:forest": "2021-03-12 00:16:43 +0000",
       "minecraft:taiga": "2021-03-10 17:54:03 +0000",
       "minecraft:taiga_hills": "2021-03-10 17:48:12 +0000",
+      "minecraft:river": "2021-03-13 00:47:56 +0000",
       "minecraft:wooded_mountains": "2021-03-11 02:30:48 +0000"
     },
     "done": false
@@ -438,6 +445,12 @@
   "minecraft:recipes/building_blocks/polished_granite_slab_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2021-03-11 02:40:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2021-03-13 00:43:11 +0000"
     },
     "done": true
   },
@@ -504,6 +517,12 @@
   "minecraft:recipes/decorations/andesite_wall_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2021-03-10 17:48:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2021-03-13 00:43:11 +0000"
     },
     "done": true
   },
